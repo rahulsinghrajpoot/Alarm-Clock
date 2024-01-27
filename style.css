@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-content{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#image{
+    height: 100%;
+    width: 10vw;
+}
+
+.main-content{
+    height: 75vh;
+    width: 60vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.date-div{
+    height: 12%;
+    background-color: beige;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#date{
+    font-size: 250%;
+    font-weight: bold;
+    color: black;
+}
+
+.time-div{
+    height: 14%;
+    background-color: beige;
+    margin-top: 5px;
+}
+
+#time{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.alarmSet{
+    height: 12%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 100%;
+}
+
+.hour-set{
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: 3%;
+    height: 70%;
+    width: 22%;
+    font-weight: bold;
+}
+#hour-select{
+    height: 100%;
+    width: 35%;
+    font-weight: bold;
+}
+
+
+.minute-set{
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: 3%;
+    height: 70%;
+    width: 28%;
+    font-weight: bold;
+}
+#minute-select{
+    height: 100%;
+    width: 35%;
+    font-weight: bold;
+}
+
+
+.mode-set{
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: 3%;
+    height: 70%;
+    width: 20%;
+    font-weight: bold;
+}
+#amPM{
+    height: 100%;
+    width: 32%;
+    font-weight: bold;
+}
+
+
+#setAlarmBtn{
+    height: 70%;
+    width: 12%;
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.alarmInfo{
+    height: 9%;
+    width: 90%;
+    margin-top: 2%;
+}
+
+#alarmText{
+    font-size: 2rem;
+    margin-left: 3%;
+}
+
+.alarmsCount{
+    height: 45%;
+    width: 90%;
+    text-align: center;
+}
+
+.alarmList{
+    height: 90%;
+    width: 95%;
+    overflow-y: scroll;
+}
